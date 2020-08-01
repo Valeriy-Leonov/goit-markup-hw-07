@@ -11,16 +11,7 @@
   --button-second: #f5f4fa;
 }
 
-section {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-section.container {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -512,6 +503,13 @@ ul {
 
 /* hero */
 
+.hero-container {
+  height: 600px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero {
   padding-left: 15px;
   padding-right: 15px;
@@ -525,7 +523,6 @@ ul {
     ),
     url(../images/header.jpg);
   background-repeat: no-repeat;
-  max-width: 1600px;
   background-position: center;
 }
 
@@ -539,6 +536,12 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-top: 200px;
+}
+
+.hero-image {
+  margin: auto;
+  max-width: 1600px;
+  min-width: 1600px;
 }
 
 /* section */
@@ -614,6 +617,11 @@ ul {
   height: 251px;
 }
 
+.our-advantages {
+  width: 270px;
+  height: 251px;
+}
+
 .text-rectange {
   margin-top: 30px;
   font-style: normal;
@@ -634,13 +642,18 @@ ul {
   margin-bottom: 50px;
 }
 
+.container-about-us {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+}
+
 /* feauteres */
 .feauteres-title {
   margin-top: 10px;
-  margin-bottom: 0px;
-  width: 270px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -761,16 +774,27 @@ ul {
 
 .background-our-team {
   max-width: 1600px;
+  min-width: 1600px;
   background-color: #f5f4fa;
   margin: 0 auto;
 }
 
 .clients {
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.box {
+  max-width: 1600px;
+  min-width: 1600px;
+  margin: 0 auto;
 }
 
 .client-container {
@@ -846,17 +870,32 @@ ul {
 
 .footer-container {
   max-width: 1600px;
+  min-width: 1600px;
   margin: 0 auto;
   background-color: #2f303a;
 }
 .section-footer {
   display: flex;
+
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .footer-text {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+}
+
+.newsletter-container {
+  margin-top: 72px;
+  margin-bottom: 94px;
+  width: 570px;
+  height: 86px;
+  margin-top: 72px;
+  margin-left: 94px;
 }
 
 .newsletter {
@@ -867,8 +906,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 72px;
-  margin-left: 94px;
 }
 
 .newslater-email {
@@ -876,7 +913,7 @@ ul {
   position: absolute;
   padding-top: 15px;
   padding-left: 16px;
-  margin-left: 94px;
+
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
@@ -896,11 +933,10 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
-  border-radius: 4px;
   min-width: 130px;
   width: 200px;
   height: 50px;
-  margin-left: 464px;
+  margin-left: 370px;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -925,8 +961,8 @@ ul {
 
 .logo-footer-top {
   margin-top: 60px;
-  margin-left: 230px;
-  margin-bottom: 60px;
+  width: 231px;
+  height: 132px;
 }
 
 .logo-footer {

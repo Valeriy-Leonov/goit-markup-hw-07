@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-07</title>
+    <title>goit-markup-hw-06</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -71,116 +71,124 @@
     </div>
     <div class="box-container">
       <!--шапка-->
-
-      <header class="page-header">
-        <nav class="nav">
-          <a href="./index.html" class="logo"
-            ><span class="logo-color"> Web</span> Studio</a
-          >
-          <ul class="site-nav">
-            <li class="link-current">
-              <a href="./index.html" class="link current1">Студия</a>
+      <header class="box">
+        <div class="page-header">
+          <nav class="nav">
+            <a href="./index.html" class="logo"
+              ><span class="logo-color"> Web</span> Studio</a
+            >
+            <ul class="site-nav">
+              <li class="link-current">
+                <a href="./index.html">Студия</a>
+              </li>
+              <li><a href="./partfolio.html">Портфолио</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <ul class="site-nav-contact">
+            <li>
+              <a href="mailto:info@example.com" class="button-icon-envelope">
+                <svg width="16px" height="11.2px">
+                  <use href="./images/symbol-defs.svg#envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
             </li>
-            <li><a href="./partfolio.html">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+            <li>
+              <a href="tel:+380991111111" class="button-icon-smartphone">
+                <svg width="10px" height="14.94px">
+                  <use href="./images/symbol-defs.svg#smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
           </ul>
-        </nav>
-        <ul class="site-nav-contact">
-          <li>
-            <a href="mailto:info@example.com" class="button-icon-envelope">
-              <svg width="16px" height="11.2px">
-                <use href="./images/symbol-defs.svg#envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="button-icon-smartphone">
-              <svg width="10px" height="14.94px">
-                <use href="./images/symbol-defs.svg#smartphone"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
+        </div>
       </header>
       <main>
         <!--герой-->
-        <div class="hero">
-          <h1 class="hero-text">
-            Эффективные решения <br />
-            для вашего бизнеса
-          </h1>
-          <button class="button" data-modal-open>Заказать услугу</button>
+        <div class="box">
+          <div class="hero">
+            <h1 class="hero-text">
+              Эффективные решения <br />
+              для вашего бизнеса
+            </h1>
+            <button class="button" data-modal-open>Заказать услугу</button>
+          </div>
         </div>
         <!--Наши преимущества-->
-        <section class="container">
-          <ul class="flex-container">
-            <li>
-              <button class="button-svg">
-                <svg class="button-icon">
-                  <use href="./images/symbol-defs.svg#antenna-1"></use>
-                </svg>
-              </button>
-              <h3 class="text-rectange">Внимание к деталям</h3>
-              <p class="feauteres-title">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li>
-              <button class="button-svg">
-                <svg class="button-icon">
-                  <use href="./images/symbol-defs.svg#clock-1"></use>
-                </svg>
-              </button>
-              <h3 class="text-rectange">Пунктуальность</h3>
-              <p class="feauteres-title">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <button class="button-svg">
-                <svg class="button-icon">
-                  <use href="./images/symbol-defs.svg#diagram-1"></use>
-                </svg>
-              </button>
-              <h3 class="text-rectange">Планирование</h3>
-              <p class="feauteres-title">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <button class="button-svg">
-                <svg class="button-icon">
-                  <use href="./images/symbol-defs.svg#astronaut-1"></use>
-                </svg>
-              </button>
-              <h3 class="text-rectange">Современные технологии</h3>
-              <p class="feauteres-title">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
+        <section class="box">
+          <div class="container">
+            <ul class="flex-container">
+              <li>
+                <div class="our-advantages">
+                  <button class="button-svg">
+                    <svg class="button-icon">
+                      <use href="./images/symbol-defs.svg#antenna-1"></use>
+                    </svg>
+                  </button>
+                  <h3 class="text-rectange">Внимание к деталям</h3>
+                  <p class="feauteres-title">
+                    Идейные соображения, а также начало повседневной работы по
+                    формированию позиции.
+                  </p>
+                </div>
+              </li>
+              <li class="our-advantages">
+                <button class="button-svg">
+                  <svg class="button-icon">
+                    <use href="./images/symbol-defs.svg#clock-1"></use>
+                  </svg>
+                </button>
+                <h3 class="text-rectange">Пунктуальность</h3>
+                <p class="feauteres-title">
+                  Задача организации, в особенности же рамки и место обучения
+                  кадров влечет за собой.
+                </p>
+              </li>
+              <li class="our-advantages">
+                <button class="button-svg">
+                  <svg class="button-icon">
+                    <use href="./images/symbol-defs.svg#diagram-1"></use>
+                  </svg>
+                </button>
+                <h3 class="text-rectange">Планирование</h3>
+                <p class="feauteres-title">
+                  Равным образом консультация с широким активом в значительной
+                  степени обуславливает.
+                </p>
+              </li>
+              <li class="our-advantages">
+                <button class="button-svg">
+                  <svg class="button-icon">
+                    <use href="./images/symbol-defs.svg#astronaut-1"></use>
+                  </svg>
+                </button>
+                <h3 class="text-rectange">Современные технологии</h3>
+                <p class="feauteres-title">
+                  Значимость этих проблем настолько очевидна, что реализация
+                  плановых заданий.
+                </p>
+              </li>
+            </ul>
+          </div>
         </section>
-        <div class="line"></div>
         <!--Чем мы занимаемся-->
-        <section class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="about-profession">
-            <li class="bg-svg1">
-              <h3 class="white-text-title">Десктопные приложения</h3>
-            </li>
-            <li class="bg-svg2">
-              <h3 class="white-text-title">Мобильные приложения</h3>
-            </li>
-            <li class="bg-svg3">
-              <h3 class="white-text-title">Дизайнерские решения</h3>
-            </li>
-          </ul>
+        <section class="box">
+          <div class="container-about-us">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="about-profession">
+              <li class="bg-svg1">
+                <h3 class="white-text-title">Десктопные приложения</h3>
+              </li>
+              <li class="bg-svg2">
+                <h3 class="white-text-title">Мобильные приложения</h3>
+              </li>
+              <li class="bg-svg3">
+                <h3 class="white-text-title">Дизайнерские решения</h3>
+              </li>
+            </ul>
+          </div>
         </section>
         <!--Наша команда-->
         <div class="background-our-team">
@@ -327,7 +335,7 @@
           </section>
         </div>
         <!--Постоянные клиенты-->
-        <section class="container">
+        <section class="box">
           <div class="clients">
             <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="client-container">
@@ -423,7 +431,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="newsletter-container">
             <b class="newsletter"> Подпишитесь на рассылку</b>
             <br />
             <span class="newslater-email">E-mail</span>
