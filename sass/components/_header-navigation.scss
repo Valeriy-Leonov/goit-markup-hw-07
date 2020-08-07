@@ -1,3 +1,6 @@
+.link-curent-item {
+  color: $akcent;
+}
 .page-header {
   width: 1200px;
   padding-left: 15px;
@@ -55,6 +58,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .site-nav {
   transition-property: all;
   transition-duration: 250ms;
@@ -113,6 +117,7 @@
   position: relative;
   color: $akcent;
 }
+
 .link-current::after {
   content: "";
   width: 100%;
